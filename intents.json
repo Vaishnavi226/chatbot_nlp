@@ -762,5 +762,759 @@
             "Stay hydrated and eat balanced meals.",
             "Take short breaks to stretch or walk."
         ]
+    },
+    {
+        "tag": "home_remedy_allergies",
+        "patterns": [
+            "allergies",
+            "remedy for allergies",
+            "how to treat allergies",
+            "allergy home remedy"
+        ],
+        "responses": [
+            "Try using a saline nasal rinse to clear allergens.",
+            "Local honey may help build immunity to pollen."
+        ]
+    },
+    {
+        "tag": "home_remedy_flu",
+        "patterns": [
+            "flu",
+            "remedy for flu",
+            "how to treat flu",
+            "flu home remedy"
+        ],
+        "responses": [
+            "Stay hydrated and rest as much as possible.",
+            "Ginger tea with honey can help soothe flu symptoms."
+        ]
+    },
+    {
+        "tag": "home_remedy_muscle_pain",
+        "patterns": [
+            "muscle pain",
+            "remedy for muscle pain",
+            "how to relieve muscle pain",
+            "muscle pain home remedy"
+        ],
+        "responses": [
+            "Apply a warm compress to the affected area.",
+            "Epsom salt baths can help relax sore muscles."
+        ]
+    },
+    {
+        "tag": "home_remedy_heartburn",
+        "patterns": [
+            "heartburn",
+            "remedy for heartburn",
+            "how to relieve heartburn",
+            "heartburn home remedy"
+        ],
+        "responses": [
+            "Try drinking a glass of water with a teaspoon of baking soda.",
+            "Ginger tea can also help soothe heartburn."
+        ]
+    },
+    {
+        "tag": "home_remedy_diarrhea",
+        "patterns": [
+            "diarrhea",
+            "remedy for diarrhea",
+            "how to treat diarrhea",
+            "diarrhea home remedy"
+        ],
+        "responses": [
+            "Stay hydrated with clear fluids like broth or electrolyte drinks.",
+            "Eating bananas, rice, applesauce, and toast (BRAT diet) can help."
+        ]
+    },
+    {
+        "tag": "home_remedy_constipation",
+        "patterns": [
+            "constipation",
+            "remedy for constipation",
+            "how to relieve constipation",
+            "constipation home remedy"
+        ],
+        "responses": [
+            "Increase your fiber intake with fruits, vegetables, and whole grains.",
+            "Drinking warm water with lemon can also help."
+        ]
+    },
+    {
+        "tag": "home_remedy_bloating",
+        "patterns": [
+            "bloating",
+            "remedy for bloating",
+            "how to reduce bloating",
+            "bloating home remedy"
+        ],
+        "responses": [
+            "Peppermint tea can help relieve bloating.",
+            "Try gentle exercise like walking to aid digestion."
+        ]
+    },
+    {
+        "tag": "home_remedy_fatigue",
+        "patterns": [
+            "fatigue",
+            "remedy for fatigue",
+            "how to boost energy",
+            "fatigue home remedy"
+        ],
+        "responses": [
+            "Stay hydrated and eat balanced meals.",
+            "Take short breaks to stretch or walk."
+        ]
+    },
+    {
+        "tag": "home_remedy_earache",
+        "patterns": [
+            "earache",
+            "remedy for earache",
+            "how to relieve earache",
+            "earache home remedy"
+        ],
+        "responses": [
+            "Warm compresses can help soothe ear pain.",
+            "Over-the-counter pain relievers may also provide relief."
+        ]
+    },
+    {
+        "tag": "home_remedy_foot_pain",
+        "patterns": [
+            "foot pain",
+            "remedy for foot pain",
+            "how to relieve foot pain",
+            "foot pain home remedy"
+        ],
+        "responses": [
+            "Soak your feet in warm water with Epsom salt.",
+            "Stretching and massaging your feet can also help."
+        ]
+    },
+    {
+        "tag": "home_remedy_anxiety",
+        "patterns": [
+            "anxiety",
+            "remedy for anxiety",
+            "how to reduce anxiety",
+            "anxiety home remedy"
+        ],
+        "responses": [
+            "Practice deep breathing exercises or meditation.",
+            "Herbal teas like chamomile can help calm your nerves."
+        ]
+    },
+    {
+        "tag": "home_remedy_insomnia",
+        "patterns": [
+            "insomnia",
+            "remedy for insomnia",
+            "how to sleep better",
+            "insomnia home remedy"
+        ],
+        "responses": [
+            "Create a relaxing bedtime routine and avoid screens before bed.",
+            "Herbal teas like valerian root can promote sleep."
+        ]
+    },
+    {
+        "tag": "home_remedy_mood_swings",
+        "patterns": [
+            "mood swings",
+            "remedy for mood swings",
+            "how to stabilize mood",
+            "mood swings home remedy"
+        ],
+        "responses": [
+            "Regular exercise can help improve your mood.",
+            "Consider mindfulness practices like yoga or meditation."
+        ]
+    },
+    {
+        "tag": "home_remedy_skin_acne",
+        "patterns": [
+            "acne",
+            "remedy for acne",
+            "how to treat acne",
+            "acne home remedy"
+        ],
+        "responses": [
+            "Apply tea tree oil to affected areas.",
+            "Aloe vera gel can also help soothe and heal the skin."
+        ]
+    },
+    {
+        "tag": "home_remedy_dry_skin",
+        "patterns": [
+            "dry skin",
+            "remedy for dry skin",
+            "how to hydrate skin",
+            "dry skin home remedy"
+        ],
+        "responses": [
+            "Use coconut oil or olive oil as a moisturizer.",
+            "Oatmeal baths can help soothe and hydrate dry skin."
+        ]
+    },
+    {
+        "tag": "home_remedy_foot_fungus",
+        "patterns": [
+            "foot fungus",
+            "remedy for foot fungus",
+            "how to treat foot fungus",
+            "foot fungus home remedy"
+        ],
+        "responses": [
+            "Keep your feet dry and use antifungal powder.",
+            "Tea tree oil can also be effective against foot fungus."
+        ]
+    },
+    {
+        "tag": "home_remedy_gingivitis",
+        "patterns": [
+            "gingivitis",
+            "remedy for gingivitis",
+            "how to treat gingivitis",
+            "gingivitis home remedy"
+        ],
+        "responses": [
+            "Rinse with warm salt water to reduce inflammation.",
+            "Maintain good oral hygiene and consider using a soft-bristled toothbrush."
+        ]
+    },
+    {
+        "tag": "home_remedy_nosebleed",
+        "patterns": [
+            "nosebleed",
+            "remedy for nosebleed",
+            "how to stop a nosebleed",
+            "nosebleed home remedy"
+        ],
+        "responses": [
+            "Pinch your nose and lean forward to stop the bleeding.",
+            "Applying a cold compress to the nose can help reduce swelling."
+        ]
+    },
+    {
+        "tag": "home_remedy_sunburn",
+        "patterns": [
+            "sunburn",
+            "remedy for sunburn",
+            "how to treat sunburn",
+            "sunburn home remedy"
+        ],
+        "responses": [
+            "Apply aloe vera gel to soothe the skin.",
+            "Cool baths or compresses can help relieve discomfort."
+        ]
+    },
+    {
+        "tag": "home_remedy_wart",
+        "patterns": [
+            "wart",
+            "remedy for wart",
+            "how to remove a wart",
+            "wart home remedy"
+        ],
+        "responses": [
+            "Duct tape can be used to cover the wart for several days.",
+            "Applying apple cider vinegar may help in wart removal."
+        ]
+    },
+    {
+        "tag": "home_remedy_itchy_skin",
+        "patterns": [
+            "itchy skin",
+            "remedy for itchy skin",
+            "how to relieve itchy skin",
+            "itchy skin home remedy"
+        ],
+        "responses": [
+            "Oatmeal baths can soothe itchy skin.",
+            "Applying coconut oil can help moisturize and relieve itching."
+        ]
+    },
+    {
+        "tag": "home_remedy_burn",
+        "patterns": [
+            "burn",
+            "remedy for burn",
+            "how to treat a burn",
+            "burn home remedy"
+        ],
+        "responses": [
+            "Run cool water over the burn for several minutes.",
+            "Aloe vera gel can help soothe minor burns."
+        ]
+    },
+    {
+        "tag": "home_remedy_hiccups",
+        "patterns": [
+            "hiccups",
+            "remedy for hiccups",
+            "how to stop hiccups",
+            "hiccups home remedy"
+        ],
+        "responses": [
+            "Try holding your breath for a few seconds.",
+            "Drinking a glass of water quickly can also help."
+        ]
+    },
+    {
+        "tag": "home_remedy_mouth_ulcer",
+        "patterns": [
+            "mouth ulcer",
+            "remedy for mouth ulcer",
+            "how to treat mouth ulcer",
+            "mouth ulcer home remedy"
+        ],
+        "responses": [
+            "Rinse your mouth with salt water to promote healing.",
+            "Applying honey directly to the ulcer can help soothe pain."
+        ]
+    },
+    {
+        "tag": "home_remedy_bladder_infection",
+        "patterns": [
+            "bladder infection",
+            "remedy for bladder infection",
+            "how to treat bladder infection",
+            "bladder infection home remedy"
+        ],
+        "responses": [
+            "Drink plenty of water to help flush out bacteria.",
+            "Cranberry juice may help prevent further infections."
+        ]
+    },
+    {
+        "tag": "home_remedy_foot_cramps",
+        "patterns": [
+            "foot cramps",
+            "remedy for foot cramps",
+            "how to relieve foot cramps",
+            "foot cramps home remedy"
+        ],
+        "responses": [
+            "Stretch your foot and calf muscles gently.",
+            "Applying heat or a warm compress can help relax the muscles."
+        ]
+    },
+    {
+        "tag": "home_remedy_earwax",
+        "patterns": [
+            "earwax",
+            "remedy for earwax",
+            "how to remove earwax",
+            "earwax home remedy"
+        ],
+        "responses": [
+            "Use a few drops of mineral oil or baby oil to soften earwax.",
+            "Avoid using cotton swabs, as they can push wax further in."
+        ]
+    },
+    {
+        "tag": "home_remedy_brittle_nails",
+        "patterns": [
+            "brittle nails",
+            "remedy for brittle nails",
+            "how to strengthen nails",
+            "brittle nails home remedy"
+        ],
+        "responses": [
+            "Apply olive oil or coconut oil to your nails regularly.",
+            "Ensure you're getting enough biotin in your diet."
+        ]
+    },
+    {
+        "tag": "home_remedy_chapped_lips",
+        "patterns": [
+            "chapped lips",
+            "remedy for chapped lips",
+            "how to heal chapped lips",
+            "chapped lips home remedy"
+        ],
+        "responses": [
+            "Apply a moisturizing lip balm frequently.",
+            "Coconut oil or shea butter can help hydrate and heal chapped lips."
+        ]
+    },
+    {
+        "tag": "home_remedy_sore_throat",
+        "patterns": [
+            "sore throat",
+            "remedy for sore throat",
+            "how to soothe a sore throat",
+            "sore throat home remedy"
+        ],
+        "responses": [
+            "Gargle with warm salt water to reduce inflammation.",
+            "Honey in warm tea can help soothe throat irritation."
+        ]
+    },
+    {
+        "tag": "home_remedy_stomach_ache",
+        "patterns": [
+            "stomach ache",
+            "remedy for stomach ache",
+            "how to relieve stomach ache",
+            "stomach ache home remedy"
+        ],
+        "responses": [
+            "Ginger tea can help alleviate stomach discomfort.",
+            "A warm compress on your abdomen may provide relief."
+        ]
+    },
+    {
+        "tag": "home_remedy_cough",
+        "patterns": [
+            "cough",
+            "remedy for cough",
+            "how to treat a cough",
+            "cough home remedy"
+        ],
+        "responses": [
+            "Honey can help soothe a cough, especially at night.",
+            "Steam inhalation can relieve cough and congestion."
+        ]
+    },
+    {
+        "tag": "home_remedy_fever",
+        "patterns": [
+            "fever",
+            "remedy for fever",
+            "how to reduce fever",
+            "fever home remedy"
+        ],
+        "responses": [
+            "Stay hydrated and rest as much as possible.",
+            "A lukewarm bath can help lower body temperature."
+        ]
+    },
+    {
+        "tag": "home_remedy_nausea",
+        "patterns": [
+            "nausea",
+            "remedy for nausea",
+            "how to relieve nausea",
+            "nausea home remedy"
+        ],
+        "responses": [
+            "Ginger tea or ginger ale can help settle your stomach.",
+            "Try deep breathing exercises to ease nausea."
+        ]
+    },
+    {
+        "tag": "home_remedy_headache",
+        "patterns": [
+            "headache",
+            "remedy for headache",
+            "how to relieve headache",
+            "headache home remedy"
+        ],
+        "responses": [
+            "Apply a cold compress to your forehead.",
+            "Stay hydrated and consider resting in a dark, quiet room."
+        ]
+    },
+    {
+        "tag": "home_remedy_cold",
+        "patterns": [
+            "cold",
+            "remedy for cold",
+            "how to treat a cold",
+            "cold home remedy"
+        ],
+        "responses": [
+            "Stay hydrated and rest to help your body recover.",
+            "Warm soups and broths can provide comfort and nourishment."
+        ]
+    },
+    {
+        "tag": "home_remedy_wrist_pain",
+        "patterns": [
+            "wrist pain",
+            "remedy for wrist pain",
+            "how to relieve wrist pain",
+            "wrist pain home remedy"
+        ],
+        "responses": [
+            "Rest your wrist and apply ice to reduce swelling.",
+            "Gentle stretching can help alleviate discomfort."
+        ]
+    },
+    {
+        "tag": "home_remedy_knee_pain",
+        "patterns": [
+            "knee pain",
+            "remedy for knee pain",
+            "how to relieve knee pain",
+            "knee pain home remedy"
+        ],
+        "responses": [
+            "Rest and elevate your knee to reduce swelling.",
+            "Gentle exercises can help strengthen the muscles around the knee."
+        ]
+    },
+    {
+        "tag": "home_remedy_fatigue",
+        "patterns": [
+            "fatigue",
+            "remedy for fatigue",
+            "how to boost energy",
+            "tiredness home remedy"
+        ],
+        "responses": [
+            "Ensure you're getting enough sleep and hydration.",
+            "Regular exercise can help increase your energy levels."
+        ]
+    },
+    {
+        "tag": "home_remedy_migraines",
+        "patterns": [
+            "migraines",
+            "remedy for migraines",
+            "how to treat migraines",
+            "migraine home remedy"
+        ],
+        "responses": [
+            "Rest in a dark, quiet room and apply a cold compress.",
+            "Stay hydrated and consider over-the-counter pain relief."
+        ]
+    },
+    {
+        "tag": "home_remedy_heartburn",
+        "patterns": [
+            "heartburn",
+            "remedy for heartburn",
+            "how to relieve heartburn",
+            "heartburn home remedy"
+        ],
+        "responses": [
+            "Avoid spicy and fatty foods, and eat smaller meals.",
+            "Ginger tea can help soothe heartburn symptoms."
+        ]
+    },
+    {
+        "tag": "home_remedy_urinary_tract_infection",
+        "patterns": [
+            "UTI",
+            "urinary tract infection",
+            "remedy for UTI",
+            "how to treat UTI"
+        ],
+        "responses": [
+            "Drink plenty of water to help flush out bacteria.",
+            "Cranberry juice may help prevent further infections."
+        ]
+    },
+    {
+        "tag": "home_remedy_sciatica",
+        "patterns": [
+            "sciatica",
+            "remedy for sciatica",
+            "how to relieve sciatica pain",
+            "sciatica home remedy"
+        ],
+        "responses": [
+            "Gentle stretching and physical therapy can help.",
+            "Applying heat or ice to the affected area may provide relief."
+        ]
+    },
+    {
+        "tag": "home_remedy_eczema",
+        "patterns": [
+            "eczema",
+            "remedy for eczema",
+            "how to treat eczema",
+            "eczema home remedy"
+        ],
+        "responses": [
+            "Keep your skin moisturized with creams or oils.",
+            "Avoid triggers like harsh soaps and allergens."
+        ]
+    },
+    {
+        "tag": "home_remedy_hemorrhoids",
+        "patterns": [
+            "hemorrhoids",
+            "remedy for hemorrhoids",
+            "how to treat hemorrhoids",
+            "hemorrhoids home remedy"
+        ],
+        "responses": [
+            "Soaking in warm water can provide relief.",
+            "Increase fiber intake to help with bowel movements."
+        ]
+    },
+    {
+        "tag": "home_remedy_nail_fungus",
+        "patterns": [
+            "nail fungus",
+            "remedy for nail fungus",
+            "how to treat nail fungus",
+            "nail fungus home remedy"
+        ],
+        "responses": [
+            "Apply tea tree oil to the affected nails.",
+            "Keep your nails trimmed and dry to prevent further growth."
+        ]
+    },
+    {
+        "tag": "home_remedy_stress",
+        "patterns": [
+            "stress",
+            "remedy for stress",
+            "how to reduce stress",
+            "stress home remedy"
+        ],
+        "responses": [
+            "Practice mindfulness or meditation to calm your mind.",
+            "Regular exercise can also help reduce stress levels."
+        ]
+    },
+    {
+        "tag": "home_remedy_burns",
+        "patterns": [
+            "burns",
+            "remedy for burns",
+            "how to treat burns",
+            "burn home remedy"
+        ],
+        "responses": [
+            "Run cool water over the burn for several minutes.",
+            "Aloe vera gel can help soothe minor burns."
+        ]
+    },
+    {
+        "tag": "home_remedy_canker_sores",
+        "patterns": [
+            "canker sores",
+            "remedy for canker sores",
+            "how to treat canker sores",
+            "canker sore home remedy"
+        ],
+        "responses": [
+            "Rinse your mouth with salt water to promote healing.",
+            "Avoid spicy and acidic foods that can irritate the sore."
+        ]
+    },
+    {
+        "tag": "home_remedy_fungal_infections",
+        "patterns": [
+            "fungal infection",
+            "remedy for fungal infection",
+            "how to treat fungal infection",
+            "fungal infection home remedy"
+        ],
+        "responses": [
+            "Keep the affected area dry and clean to prevent further growth.",
+            "Over-the-counter antifungal creams can be effective."
+        ]
+    },
+    {
+        "tag": "home_remedy_allergies",
+        "patterns": [
+            "allergies",
+            "remedy for allergies",
+            "how to relieve allergies",
+            "allergy home remedy"
+        ],
+        "responses": [
+            "Stay indoors on high pollen days and keep windows closed.",
+            "Saline nasal sprays can help relieve nasal congestion."
+        ]
+    },
+    {
+        "tag": "home_remedy_insomnia",
+        "patterns": [
+            "insomnia",
+            "remedy for insomnia",
+            "how to sleep better",
+            "insomnia home remedy"
+        ],
+        "responses": [
+            "Establish a regular sleep schedule and create a calming bedtime routine.",
+            "Limit screen time before bed and consider herbal teas like chamomile."
+        ]
+    },
+    {
+        "tag": "home_remedy_bloating",
+        "patterns": [
+            "bloating",
+            "remedy for bloating",
+            "how to relieve bloating",
+            "bloating home remedy"
+        ],
+        "responses": [
+            "Peppermint tea can help soothe digestive discomfort.",
+            "Avoid carbonated drinks and eat smaller meals."
+        ]
+    },
+    {
+        "tag": "home_remedy_sinus_congestion",
+        "patterns": [
+            "sinus congestion",
+            "remedy for sinus congestion",
+            "how to relieve sinus congestion",
+            "sinus congestion home remedy"
+        ],
+        "responses": [
+            "Steam inhalation can help clear nasal passages.",
+            "Saline nasal sprays can provide relief from congestion."
+        ]
+    },
+    {
+        "tag": "home_remedy_foot_odor",
+        "patterns": [
+            "foot odor",
+            "remedy for foot odor",
+            "how to get rid of foot odor",
+            "foot odor home remedy"
+        ],
+        "responses": [
+            "Keep your feet clean and dry, and change socks regularly.",
+            "Baking soda can help absorb odors when sprinkled in shoes."
+        ]
+    },
+    {
+        "tag": "home_remedy_pimples",
+        "patterns": [
+            "pimples",
+            "remedy for pimples",
+            "how to treat pimples",
+            "pimple home remedy"
+        ],
+        "responses": [
+            "Apply tea tree oil to the affected area for its antibacterial properties.",
+            "Avoid touching your face to reduce the risk of breakouts."
+        ]
+    },
+    {
+        "tag": "home_remedy_dry_skin",
+        "patterns": [
+            "dry skin",
+            "remedy for dry skin",
+            "how to treat dry skin",
+            "dry skin home remedy"
+        ],
+        "responses": [
+            "Use a thick moisturizer after bathing to lock in moisture.",
+            "Consider using a humidifier in dry environments."
+        ]
+    },
+    {
+        "tag": "home_remedy_sweating",
+        "patterns": [
+            "excessive sweating",
+            "remedy for sweating",
+            "how to reduce sweating",
+            "sweating home remedy"
+        ],
+        "responses": [
+            "Stay hydrated and wear breathable fabrics.",
+            "Antiperspirants can help control excessive sweating."
+        ]
     }
 ]
