@@ -2,157 +2,128 @@
     {
         "tag": "health",
         "patterns": [
-            "How to stay healthy",
-            "Tell me about health tips",
-            "What's the importance of fitness"
+            "How can I maintain my health?",
+            "What are some effective health tips?",
+            "Why is fitness important for my well-being?"
         ],
         "responses": [
-            "To stay healthy, maintain a balanced diet, engage in regular physical activity, get enough sleep, manage stress, and avoid harmful habits.",
-            "Fitness is essential for overall well-being and can improve your mood, energy levels, and longevity."
+            "To maintain your health, focus on a balanced diet, engage in regular physical activity, ensure adequate sleep, manage stress effectively, and avoid harmful habits.",
+            "Fitness is crucial for overall well-being as it can enhance your mood, boost energy levels, and improve longevity."
         ]
     },
     {
         "tag": "depression",
         "patterns": [
-            "Tell me about depression",
-            "Signs of depression",
-            "How to support someone with depression"
+            "What is depression?",
+            "What are the signs of depression?",
+            "How can I support someone who is depressed?"
         ],
         "responses": [
-            "Depression is a mental health disorder characterized by persistent sadness, loss of interest, and changes in behavior and mood.",
-            "Supporting someone with depression involves offering empathy, listening without judgment, and encouraging professional help."
+            "Depression is a mental health disorder characterized by persistent feelings of sadness, loss of interest in activities, and changes in behavior and mood.",
+            "To support someone with depression, offer empathy, listen without judgment, and encourage them to seek professional help."
         ]
     },
     {
         "tag": "youth_mental_health",
         "patterns": [
-            "Tell me about youth mental health",
-            "Supporting teenagers' emotional well-being",
-            "Recognizing signs of distress in young people"
+            "What should I know about youth mental health?",
+            "How can I support a teenager's emotional well-being?",
+            "What are the signs of distress in young people?"
         ],
         "responses": [
-            "Youth mental health is crucial for overall well-being and requires understanding, support, and open communication.",
-            "Supporting teenagers' emotional well-being involves being approachable, validating their feelings, and encouraging help-seeking behavior when needed."
+            "Youth mental health is vital for overall well-being and requires understanding, support, and open communication.",
+            "To support a teenager's emotional well-being, be approachable, validate their feelings, and encourage them to seek help when needed."
         ]
     },
     {
         "tag": "emotional_intelligence",
         "patterns": [
-            "Tell me about emotional intelligence",
-            "How to develop emotional intelligence",
-            "Benefits of emotional intelligence in relationships"
+            "What is emotional intelligence?",
+            "How can I develop my emotional intelligence?",
+            "Why is emotional intelligence important in relationships?"
         ],
         "responses": [
-            "Emotional intelligence involves understanding and managing emotions in oneself and others.",
-            "Developing emotional intelligence can lead to better communication, empathy, and healthier relationships."
+            "Emotional intelligence is the ability to understand and manage your emotions and those of others.",
+            "Developing emotional intelligence can enhance your communication skills, foster empathy, and lead to healthier relationships."
         ]
     },
     {
         "tag": "healthy_relationship_with_food",
         "patterns": [
-            "Tell me about having a healthy relationship with food",
-            "Overcoming disordered eating patterns",
-            "Balanced approach to nutrition"
+            "How can I have a healthy relationship with food?",
+            "What are ways to overcome disordered eating patterns?",
+            "What does a balanced approach to nutrition look like?"
         ],
         "responses": [
-            "Having a healthy relationship with food involves listening to hunger and fullness cues, practicing intuitive eating, and avoiding restrictive diets.",
-            "Overcoming disordered eating patterns may require professional support and a compassionate approach towards oneself."
+            "A healthy relationship with food involves listening to your body's hunger and fullness cues, practicing intuitive eating, and avoiding restrictive diets.",
+            "Overcoming disordered eating patterns may require professional support and a compassionate approach towards yourself."
         ]
     },
     {
         "tag": "greeting",
         "patterns": [
-            "Hi",
-            "Hello",
-            "Hey",
-            "How are you",
-            "What's up"
+            "Hi there!",
+            "Hello!",
+            "Hey!",
+            "How can I assist you today?",
+            "What health-related questions do you have?"
         ],
         "responses": [
-            "Hi there",
-            "Hello",
-            "Hey",
-            "I'm fine, thank you",
-            "Nothing much"
+            "Hello! I'm here to help you with your health inquiries.",
+            "Hi there! How can I assist you with your health today?",
+            "Hey! What health-related information are you looking for?"
         ]
     },
     {
         "tag": "goodbye",
         "patterns": [
-            "Bye",
-            "See you later",
-            "Goodbye",
-            "Take care"
+            "Thank you, goodbye!",
+            "See you later!",
+            "Take care!",
+            "I appreciate your help!"
         ],
         "responses": [
-            "Goodbye",
-            "See you later",
-            "Take care"
+            "Goodbye! Take care of your health!",
+            "See you later! Remember to prioritize your well-being!",
+            "Take care! I'm here whenever you need health advice."
         ]
     },
     {
         "tag": "thanks",
         "patterns": [
-            "Thank you",
-            "Thanks",
-            "Thanks a lot",
-            "I appreciate it"
+            "Thank you for the information!",
+            "I appreciate your help!",
+            "Thanks for your assistance!"
         ],
         "responses": [
-            "You're welcome",
-            "No problem",
-            "Glad I could help"
+            "You're welcome! I'm glad I could assist you with your health questions.",
+            "No problem! I'm here to help you with any health-related inquiries.",
+            "I'm happy to help! If you have more questions, feel free to ask."
         ]
     },
     {
         "tag": "about",
         "patterns": [
-            "What can you do",
-            "Who are you",
-            "What are you",
-            "What is your purpose"
+            "What can you help me with?",
+            "Who are you?",
+            "What is your purpose?"
         ],
         "responses": [
-            "I am a chatbot",
-            "My purpose is to assist you",
-            "I can answer questions and provide assistance"
+            "I am a healthcare chatbot designed to assist you with your health-related questions and provide information.",
+            "My purpose is to help you navigate your health inquiries and provide support."
         ]
     },
     {
         "tag": "help",
         "patterns": [
-            "Help",
-            "I need help",
-            "Can you help me",
-            "What should I do"
+            "I need help with my health.",
+            "Can you assist me with health-related questions?",
+            "What should I do about my health concerns?"
         ],
         "responses": [
-            "Sure, what do you need help with?",
-            "I'm here to help. What's the problem?",
-            "How can I assist you?"
-        ]
-    },
-    {
-        "tag": "age",
-        "patterns": [
-            "How old are you",
-            "What's your age"
-        ],
-        "responses": [
-            "I don't have an age. I'm a chatbot.",
-            "I was just born in the digital world.",
-            "Age is just a number for me."
-        ]
-    },
-    {
-        "tag": "weather",
-        "patterns": [
-            "What's the weather like",
-            "How's the weather today"
-        ],
-        "responses": [
-            "I'm sorry, I cannot provide real-time weather information.",
-            "You can check the weather on a weather app or website."
+            "Sure! What specific health concerns do you need help with?",
+            "I'm here to assist you. Please share your health-related questions.",
+            "How can I support you with your health inquiries today?"
         ]
     }
 ]
