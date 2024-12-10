@@ -1,5 +1,78 @@
 [
     {
+        "tag": "greetings",
+        "patterns": [
+            "hello",
+            "hi",
+            "good morning",
+            "good evening"
+        ],
+        "responses": [
+            "Hello! How can I assist you with your healthcare needs today?",
+            "Hi there! I'm here to help you with any health-related questions."
+        ]
+    },
+    {
+        "tag": "farewell",
+        "patterns": [
+            "bye",
+            "goodbye",
+            "see you later"
+        ],
+        "responses": [
+            "Goodbye! Take care and stay healthy!",
+            "Thank you for chatting with me. Have a great day!"
+        ]
+    },
+    {
+        "tag": "off_topic",
+        "patterns": [
+            "tell me a joke",
+            "what's your favorite color?",
+            "who is your creator?",
+            "what do you think about politics?"
+        ],
+        "responses": [
+            "I'm here to assist you with healthcare-related questions. How can I help you today?",
+            "I appreciate your curiosity, but my focus is on providing health information. What health topic would you like to discuss?"
+        ]
+    },
+    {
+        "tag": "simple_questions",
+        "patterns": [
+            "what is your name?",
+            "how do you work?",
+            "what can you do?"
+        ],
+        "responses": [
+            "I'm a healthcare chatbot designed to assist you with health-related inquiries.",
+            "I provide information and advice on various health topics. How can I assist you today?"
+        ]
+    },
+    {
+        "tag": "thank_you",
+        "patterns": [
+            "thank you",
+            "thanks",
+            "I appreciate it"
+        ],
+        "responses": [
+            "You're welcome! I'm here to help. If you have any more questions, feel free to ask.",
+            "Thank you for your kind words! How can I assist you further?"
+        ]
+    },
+    {
+        "tag": "apology",
+        "patterns": [
+            "sorry",
+            "I apologize"
+        ],
+        "responses": [
+            "No need to apologize! I'm here to help you with your healthcare questions.",
+            "Thank you for your understanding. How can I assist you today?"
+        ]
+    },
+    {
         "tag": "health",
         "patterns": [
             "How can I maintain my health?",
@@ -1515,6 +1588,319 @@
         "responses": [
             "Stay hydrated and wear breathable fabrics.",
             "Antiperspirants can help control excessive sweating."
+        ]
+    },
+    {
+        "tag": "common_drugs_headache",
+        "patterns": [
+            "headache",
+            "remedy for headache",
+            "how to relieve headache",
+            "headache medicine"
+        ],
+        "responses": [
+            "You can try taking Paracetamol (Dolo 650) or Ibuprofen (Brufen) for headache relief."
+        ]
+    },
+    {
+        "tag": "common_drugs_cold",
+        "patterns": [
+            "cold",
+            "remedy for cold",
+            "how to treat a cold",
+            "cold medicine"
+        ],
+        "responses": [
+            "Consider using Cetirizine (Zyrtec) for allergy-related symptoms or Paracetamol for fever."
+        ]
+    },
+    {
+        "tag": "common_drugs_cough",
+        "patterns": [
+            "cough",
+            "remedy for cough",
+            "how to treat a cough",
+            "cough medicine"
+        ],
+        "responses": [
+            "You can try Benadryl or Dextromethorphan for cough relief."
+        ]
+    },
+    {
+        "tag": "common_drugs_stomach_ache",
+        "patterns": [
+            "stomach ache",
+            "remedy for stomach ache",
+            "how to relieve stomach ache",
+            "stomach ache medicine"
+        ],
+        "responses": [
+            "You can take Antacids like Gelusil or Digene for relief from acidity-related stomach aches."
+        ]
+    },
+    {
+        "tag": "common_drugs_allergies",
+        "patterns": [
+            "allergies",
+            "remedy for allergies",
+            "how to treat allergies",
+            "allergy medicine"
+        ],
+        "responses": [
+            "Consider using Cetirizine (Zyrtec) or Loratadine (Claritin) for allergy relief."
+        ]
+    },
+    {
+        "tag": "common_drugs_fever",
+        "patterns": [
+            "fever",
+            "remedy for fever",
+            "how to reduce fever",
+            "fever medicine"
+        ],
+        "responses": [
+            "Paracetamol (Dolo 650) is commonly used to reduce fever."
+        ]
+    },
+    {
+        "tag": "common_drugs_diarrhea",
+        "patterns": [
+            "diarrhea",
+            "remedy for diarrhea",
+            "how to treat diarrhea",
+            "diarrhea medicine"
+        ],
+        "responses": [
+            "You can take Loperamide (Imodium) for diarrhea relief."
+        ]
+    },
+    {
+        "tag": "common_drugs_constipation",
+        "patterns": [
+            "constipation",
+            "remedy for constipation",
+            "how to relieve constipation",
+            "constipation medicine"
+        ],
+        "responses": [
+            "Consider using Lactulose or Psyllium husk (Isabgol) for relief from constipation."
+        ]
+    },
+    {
+        "tag": "common_drugs_heartburn",
+        "patterns": [
+            "heartburn",
+            "remedy for heartburn",
+            "how to relieve heartburn",
+            "heartburn medicine"
+        ],
+        "responses": [
+            "Antacids like Gelusil or Omeprazole can help relieve heartburn."
+        ]
+    },
+    {
+        "tag": "common_drugs_skin_rash",
+        "patterns": [
+            "skin rash",
+            "remedy for skin rash",
+            "how to treat skin rash",
+            "skin rash medicine"
+        ],
+        "responses": [
+            "You can use Hydrocortisone cream for mild skin rashes."
+        ]
+    },
+    {
+        "tag": "common_drugs_muscle_pain",
+        "patterns": [
+            "muscle pain",
+            "remedy for muscle pain",
+            "how to relieve muscle pain",
+            "muscle pain medicine"
+        ],
+        "responses": [
+            "You can take Ibuprofen (Brufen) or Diclofenac (Voveran) for muscle pain relief."
+        ]
+    },
+    {
+        "tag": "common_drugs_itchy_skin",
+        "patterns": [
+            "itchy skin",
+            "remedy for itchy skin",
+            "how to relieve itchy skin",
+            "itchy skin medicine"
+        ],
+        "responses": [
+            "Antihistamines like Cetirizine can help relieve itching."
+        ]
+    },
+    {
+        "tag": "common_drugs_urinary_tract_infection",
+        "patterns": [
+            "UTI",
+            "urinary tract infection",
+            " remedy for UTI",
+            "how to treat UTI",
+            "UTI medicine"
+        ],
+        "responses": [
+            "For mild UTI symptoms, you can take Nitrofurantoin (Macrobid) or consult a doctor for appropriate treatment."
+        ]
+    },
+    {
+        "tag": "common_drugs_arthritis",
+        "patterns": [
+            "arthritis",
+            "remedy for arthritis",
+            "how to relieve arthritis pain",
+            "arthritis medicine"
+        ],
+        "responses": [
+            "Over-the-counter NSAIDs like Ibuprofen (Brufen) can help relieve arthritis pain."
+        ]
+    },
+    {
+        "tag": "common_drugs_insomnia",
+        "patterns": [
+            "insomnia",
+            "remedy for insomnia",
+            "how to sleep better",
+            "insomnia medicine"
+        ],
+        "responses": [
+            "For occasional sleeplessness, you might consider Melatonin supplements, but consult a doctor for chronic issues."
+        ]
+    },
+    {
+        "tag": "common_drugs_anxiety",
+        "patterns": [
+            "anxiety",
+            "remedy for anxiety",
+            "how to reduce anxiety",
+            "anxiety medicine"
+        ],
+        "responses": [
+            "For mild anxiety, you can try herbal remedies like Ashwagandha, but seek professional advice for severe cases."
+        ]
+    },
+    {
+        "tag": "common_drugs_depression",
+        "patterns": [
+            "depression",
+            "remedy for depression",
+            "how to treat depression",
+            "depression medicine"
+        ],
+        "responses": [
+            "It's important to consult a healthcare professional for depression treatment; self-medication is not advised."
+        ]
+    },
+    {
+        "tag": "healthcare_services",
+        "patterns": [
+            "what services do you provide?",
+            "how can you help me?",
+            "what can I ask you?"
+        ],
+        "responses": [
+            "I provide information and advice on various health topics, including common ailments, medications, and home remedies. How can I assist you today?",
+            "I'm here to help you with healthcare-related questions. Feel free to ask about symptoms, treatments, or general health advice."
+        ]
+    },
+    {
+        "tag": "feedback",
+        "patterns": [
+            "how am I doing?",
+            "what do you think of my question?",
+            "is this helpful?"
+        ],
+        "responses": [
+            "Your questions are important! I'm here to provide the best information I can. How can I assist you further?",
+            "I appreciate your engagement! Please let me know how I can help you with your health inquiries."
+        ]
+    },
+    {
+        "tag": "reminder",
+        "patterns": [
+            "remind me to take my medicine",
+            "set a reminder for my appointment",
+            "can you remind me?"
+        ],
+        "responses": [
+            "I'm unable to set reminders, but I recommend using a calendar app or reminder tool for that purpose. How else can I assist you?",
+            "I can't set reminders, but I can help you with information about medications or appointments. What do you need help with?"
+        ]
+    },
+    {
+        "tag": "health_tips",
+        "patterns": [
+            "give me health tips",
+            "how can I stay healthy?",
+            "what are some good health practices?"
+        ],
+        "responses": [
+            "Staying hydrated, eating a balanced diet, and exercising regularly are great ways to maintain your health. Would you like more specific tips?",
+            "Regular check-ups, a healthy diet, and physical activity are key to good health. How can I assist you further?"
+        ]
+    },
+    {
+        "tag": "symptom_check",
+        "patterns": [
+            "I have a headache, what should I do?",
+            "I feel nauseous, what can I take?",
+            "I have a sore throat, what does it mean?"
+        ],
+        "responses": [
+            "For a headache, you can try resting and taking Paracetamol. If symptoms persist, please consult a healthcare professional.",
+            "Nausea can have various causes. Staying hydrated and resting may help, but if it continues, please seek medical advice."
+        ]
+    },
+    {
+        "tag": "healthcare_resources",
+        "patterns": [
+            "where can I find health information?",
+            "what are some reliable health websites?",
+            "can you recommend health resources?"
+        ],
+        "responses": [
+            "You can visit websites like WHO, CDC, or MedlinePlus for reliable health information. How else can I assist you?",
+            "For trustworthy health resources, consider checking out the WHO or Mayo Clinic websites. What specific information are you looking for?"
+        ]
+    },
+    {
+        "tag": "personal_health",
+        "patterns": [
+            "what should I do for my health?",
+            "how can I improve my health?",
+            "what's the best way to stay fit?"
+        ],
+        "responses": [
+            "It's important to maintain a balanced diet, exercise regularly, and get enough sleep. If you have specific health concerns, please consult a healthcare professional.",
+            "Staying active, eating nutritious foods, and managing stress are key to good health. How can I assist you further?"
+        ]
+    },
+    {
+        "tag": "chronic_conditions",
+        "patterns": [
+            "I have diabetes, what should I do?",
+            "how to manage hypertension?",
+            "what can I do for asthma?"
+        ],
+        "responses": [
+            "For diabetes management, it's crucial to monitor your blood sugar levels and follow a healthy diet. Please consult your doctor for personalized advice.",
+            "Managing hypertension often involves lifestyle changes and medication. It's best to consult a healthcare professional for tailored guidance."
+        ]
+    },
+    {
+        "tag": "emergency_advice",
+        "patterns": [
+            "what should I do in an emergency?",
+            "how to handle a medical emergency?",
+            "what to do if someone faints?"
+        ],
+        "responses": [
+            "In case of a medical emergency, it's important to call emergency services immediately. For fainting, ensure the person is lying down and elevate their legs. Seek medical help if needed.",
+            "Always call for professional help in emergencies. If someone faints, check their breathing and position them safely until help arrives."
         ]
     }
 ]
