@@ -632,5 +632,125 @@
             "Questions to ask during a medical appointment include inquiries about diagnosis, treatment options, and potential side effects.",
             "To ensure your concerns are heard, advocate for yourself, take notes, and don't hesitate to ask for clarification."
         ]
+    },
+    {
+        "tag": "home_remedy_cough",
+        "patterns": [
+            "What can I do for a cough?",
+            "How can I relieve my cough at home?",
+            "Any home remedies for coughing?"
+        ],
+        "responses": [
+            "For a cough, try drinking warm honey and lemon water. You can also inhale steam from hot water to soothe your throat.",
+            "Ginger tea with honey can help reduce coughing. Simply boil fresh ginger in water and add honey for taste."
+        ]
+    },
+    {
+        "tag": "home_remedy_headache",
+        "patterns": [
+            "What are some home remedies for headaches?",
+            "How can I relieve a headache naturally?",
+            "Any tips for getting rid of a headache?"
+        ],
+        "responses": [
+            "For headaches, try drinking plenty of water to stay hydrated. Applying a cold compress to your forehead can also help.",
+            "Peppermint tea or inhaling peppermint oil can provide relief from headaches. Resting in a dark, quiet room may also help."
+        ]
+    },
+    {
+        "tag": "home_remedy_nausea",
+        "patterns": [
+            "What can I do for nausea?",
+            "How can I settle my stomach at home?",
+            "Any home remedies for feeling nauseous?"
+        ],
+        "responses": [
+            "Ginger tea or ginger ale can help alleviate nausea. You can also try sucking on peppermint candies.",
+            "Eating small, bland meals like crackers or toast can help settle your stomach."
+        ]
+    },
+    {
+        "tag": "home_remedy_indigestion",
+        "patterns": [
+            "What are some remedies for indigestion?",
+            "How can I relieve indigestion at home?",
+            "Any tips for treating indigestion?"
+        ],
+        "responses": [
+            "For indigestion, try drinking warm water with lemon or apple cider vinegar. Herbal teas like chamomile can also be soothing.",
+            "Eating smaller meals and avoiding spicy or fatty foods can help prevent indigestion."
+        ]
+    },
+    {
+        "tag": "home_remedy_cold",
+        "patterns": [
+            "What can I do for a cold?",
+            "How can I relieve cold symptoms at home?",
+            "Any home remedies for a cold?"
+        ],
+        "responses": [
+            "For a cold, drink plenty of fluids like warm broth or herbal tea. Honey and lemon in hot water can soothe your throat.",
+            "Inhaling steam from a bowl of hot water can help relieve nasal congestion. Resting and getting enough sleep is also important."
+        ]
+    },
+    {
+        "tag": "home_remedy_fever",
+        "patterns": [
+            "What should I do for a fever?",
+            "How can I reduce a fever at home?",
+            "Any home remedies for fever?"
+        ],
+        "responses": [
+            "To reduce a fever, stay hydrated by drinking plenty of fluids. A lukewarm bath or sponge bath can help cool you down.",
+            "Rest is crucial. You can also try herbal teas like elderflower or chamomile to help with fever symptoms."
+        ]
+    },
+    {
+        "tag": "home_remedy_sore_throat",
+        "patterns": [
+            "What can I do for a sore throat?",
+            "How can I soothe a sore throat at home?",
+            "Any home remedies for sore throat?"
+        ],
+        "responses": [
+            "Gargling with warm salt water can help soothe a sore throat. Drinking warm liquids like tea with honey is also beneficial.",
+            "Throat lozenges or sucking on hard candies can provide temporary relief."
+        ]
+    },
+    {
+        "tag": "home_remedy_stress",
+        "patterns": [
+            "What can I do to relieve stress at home?",
+            "How can I manage stress naturally?",
+            "Any home remedies for stress relief?"
+        ],
+        "responses": [
+            "Practicing deep breathing exercises or meditation can help reduce stress. Herbal teas like chamomile or lavender are also calming.",
+            "Engaging in physical activity, such as yoga or a brisk walk, can help alleviate stress."
+        ]
+    },
+    {
+        "tag": "home_remedy_skin_irritation",
+        "patterns": [
+            "What can I do for skin irritation?",
+            "How can I soothe irritated skin at home?",
+            "Any home remedies for skin irritation?"
+        ],
+        "responses": [
+            "For skin irritation, applying aloe vera gel can provide relief. Oatmeal baths can also soothe itchy skin.",
+            "Coconut oil has moisturizing properties and can help with dry skin. Make sure to patch test any remedy on a small area first to avoid further irritation."
+        ]
+    },
+    {
+        "tag": "home_remedy_fatigue",
+        "patterns": [
+            "What can I do for fatigue?",
+            "How can I boost my energy at home?",
+            "Any home remedies for feeling tired?"
+        ],
+        "responses": [
+            "To combat fatigue, ensure you're staying hydrated and eating balanced meals rich in whole grains, fruits, and vegetables.",
+            "Taking short breaks to stretch or walk can help rejuvenate your energy levels. Herbal teas like ginseng can also provide a natural energy boost."
+        ]
     }
 ]
