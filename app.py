@@ -47,7 +47,7 @@ counter = 0
 
 def main():
     global counter
-    st.title("Intents of Chatbot using NLP")
+    st.title("Healthcare Chatbot by Vaishnavi Tripathi")
 
     # Create a sidebar menu with options
     menu = ["Home", "Conversation History", "About"]
@@ -55,13 +55,13 @@ def main():
 
     # Home Menu
     if choice == "Home":
-        st.write("Welcome to the chatbot. Please type a message and press Enter to start the conversation.")
+        st.write("Welcome to the Healthcare Chatbot! Please type your health-related question or concern below, and I will do my best to assist you.")
 
         # Check if the chat_log.csv file exists, and if not, create it with column names
         if not os.path.exists('chat_log.csv'):
             with open('chat_log.csv', 'w', newline='', encoding='utf-8') as csvfile:
                 csv_writer = csv.writer(csvfile)
-                csv_writer.writerow(['User Input', 'Chatbot Response', 'Timestamp'])
+                csv_writer.writerow(['User  Input', 'Chatbot Response', 'Timestamp'])
 
         counter += 1
         user_input = st.text_input("You:", key=f"user_input_{counter}")
@@ -83,50 +83,49 @@ def main():
                 csv_writer.writerow([user_input_str, response, timestamp])
 
             if response.lower() in ['goodbye', 'bye']:
-                st.write("Thank you for chatting with me. Have a great day!")
+                st.write("Thank you for chatting with me. Take care and stay healthy!")
                 st.stop()
 
     # Conversation History Menu
     elif choice == "Conversation History":
         # Display the conversation history in a collapsible expander
         st.header("Conversation History")
-        # with st.beta_expander("Click to see Conversation History"):
         with open('chat_log.csv', 'r', encoding='utf-8') as csvfile:
             csv_reader = csv.reader(csvfile)
             next(csv_reader)  # Skip the header row
             for row in csv_reader:
-                st.text(f"User: {row[0]}")
+                st.text(f":User  {row[0]}")
                 st.text(f"Chatbot: {row[1]}")
                 st.text(f"Timestamp: {row[2]}")
                 st.markdown("---")
 
     elif choice == "About":
-        st.write("The goal of this project is to create a chatbot that can understand and respond to user input based on intents. The chatbot is built using Natural Language Processing (NLP) library and Logistic Regression, to extract the intents and entities from user input. The chatbot is built using Streamlit, a Python library for building interactive web applications.")
+        st.write("This Healthcare Chatbot is designed to assist users with health-related inquiries. It was developed by Vaishnavi Tripathi, utilizing Natural Language Processing (NLP) techniques and Logistic Regression to understand and respond to user input based on predefined intents.")
 
         st.subheader("Project Overview:")
 
         st.write("""
-        The project is divided into two parts:
-        1. NLP techniques and Logistic Regression algorithm is used to train the chatbot on labeled intents and entities.
-        2. For building the Chatbot interface, Streamlit web framework is used to build a web-based chatbot interface. The interface allows users to input text and receive responses from the chatbot.
+        The project consists of two main components:
+        1. **NLP Techniques**: The chatbot is trained using NLP methods and a Logistic Regression algorithm to interpret user queries related to health.
+        2. **Streamlit Interface**: The user-friendly interface allows individuals to interact with the chatbot seamlessly.
         """)
 
         st.subheader("Dataset:")
 
         st.write("""
-        The dataset used in this project is a collection of labelled intents and entities. The data is stored in a list.
-        - Intents: The intent of the user input (e.g. "greeting", "budget", "about")
-        - Entities: The entities extracted from user input (e.g. "Hi", "How do I create a budget?", "What is your purpose?")
-        - Text: The user input text.
+        The dataset comprises a collection of labeled intents and responses relevant to healthcare. 
+        - **Intents**: Categories of user inquiries (e.g., "symptoms", "medications", "appointments").
+        - **Entities**: Specific details extracted from user input (e.g., "What are the symptoms of flu?", "What medication should I take for a headache?").
+        - **Text**: The actual user input text.
         """)
 
         st.subheader("Streamlit Chatbot Interface:")
 
-        st.write("The chatbot interface is built using Streamlit. The interface includes a text input box for users to input their text and a chat window to display the chatbot's responses. The interface uses the trained model to generate responses to user input.")
+        st.write("The chatbot interface is built using Streamlit, featuring a text input box for users to submit their health-related questions and a chat window to display responses. The interface leverages the trained model to provide accurate and helpful answers.")
 
         st.subheader("Conclusion:")
 
-        st.write("In this project, a chatbot is built that can understand and respond to user input based on intents. The chatbot was trained using NLP and Logistic Regression, and the interface was built using Streamlit. This project can be extended by adding more data, using more sophisticated NLP techniques, deep learning algorithms.")
+        st.write("This project showcases a healthcare chatbot capable of understanding and responding to user inquiries based on intents. It employs NLP and Logistic Regression for training, while the interactive interface is developed using Streamlit. Future enhancements could include expanding the dataset and integrating more advanced NLP techniques or machine learning models.")
 
 if __name__ == '__main__':
     main()
